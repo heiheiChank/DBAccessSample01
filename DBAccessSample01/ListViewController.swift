@@ -318,21 +318,6 @@ class ListViewController: UITableViewController, UISearchBarDelegate, Observable
         }
     }
     
-    //　アニメーション
-//    override func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
-//        
-//        let slideInTransform = CATransform3DTranslate(CATransform3DIdentity, 510, 15, 0)
-//        
-//        cell.layer.transform = slideInTransform
-//        
-//        UIView.animateWithDuration(0.7) { () -> Void in
-//            
-//            cell.layer.transform = CATransform3DIdentity
-//            
-//        }
-//        
-//    }
-    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! Cell
         
