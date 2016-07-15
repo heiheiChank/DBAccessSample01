@@ -26,6 +26,9 @@
             <string>onryou</string>
             <string>onryou</string>
             <string>onryou</string>
+            <string>onryou</string>
+            <string>onryou</string>
+            <string>onryou</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -55,11 +58,25 @@
                                     <segue destination="uEQ-2k-MW5" kind="show" id="p1U-hU-icU"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DEATHNOTE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RCE-t7-oxz">
+                                <rect key="frame" x="402" y="546" width="159" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="N2q-Tg-RtP"/>
+                                    <constraint firstAttribute="width" constant="159" id="hhZ-xI-tdf"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="159" id="nhh-IQ-2y2"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="34" id="tIx-Gy-Nzc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="onryou" family="onryou" pointSize="33"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="VkP-Gf-XVG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="566-OT-eYv"/>
                             <constraint firstItem="VkP-Gf-XVG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q3U-t6-tpt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RCE-t7-oxz" secondAttribute="trailing" constant="19" id="ThD-9N-aJX"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RCE-t7-oxz" secondAttribute="bottom" constant="20" id="rLi-ul-2vd"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="cVM-nO-qQI"/>
@@ -247,6 +264,16 @@
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" hidesWhenStopped="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="45E-5C-MFf">
                                 <rect key="frame" x="290" y="323" width="20" height="20"/>
                             </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DEATHNOTE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alx-Ka-dyg">
+                                <rect key="frame" x="379" y="546" width="159" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="8m3-zI-Fcm"/>
+                                    <constraint firstAttribute="width" constant="159" id="wSW-vH-XPQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="onryou" family="onryou" pointSize="33"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -255,9 +282,11 @@
                             <constraint firstItem="vAN-PQ-bwX" firstAttribute="centerX" secondItem="KVT-aa-RE7" secondAttribute="centerX" id="8YV-z7-FdW"/>
                             <constraint firstItem="E3A-G4-t46" firstAttribute="leading" secondItem="aJO-wg-vdN" secondAttribute="leading" id="A4W-cu-vlb"/>
                             <constraint firstItem="eFI-H8-YNR" firstAttribute="leading" secondItem="vAN-PQ-bwX" secondAttribute="leading" id="AAP-FG-MVe"/>
+                            <constraint firstItem="aHC-kW-Ayg" firstAttribute="top" secondItem="alx-Ka-dyg" secondAttribute="bottom" constant="20" id="BTp-lU-hiw"/>
                             <constraint firstItem="Azp-iB-UGG" firstAttribute="trailing" secondItem="aJO-wg-vdN" secondAttribute="trailing" id="D1M-zG-AKz"/>
                             <constraint firstItem="aJO-wg-vdN" firstAttribute="top" secondItem="8eL-iA-y85" secondAttribute="bottom" constant="48" id="PCF-wL-XdP"/>
                             <constraint firstItem="8eL-iA-y85" firstAttribute="top" secondItem="vAN-PQ-bwX" secondAttribute="bottom" constant="35" id="QHD-w5-vcw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="alx-Ka-dyg" secondAttribute="trailing" constant="42" id="QLg-1f-Qfc"/>
                             <constraint firstItem="eFI-H8-YNR" firstAttribute="top" secondItem="vAN-PQ-bwX" secondAttribute="bottom" constant="39" id="WoB-ee-lSE"/>
                             <constraint firstItem="8eL-iA-y85" firstAttribute="centerY" secondItem="eFI-H8-YNR" secondAttribute="centerY" id="YEV-ld-nKg"/>
                             <constraint firstItem="aJO-wg-vdN" firstAttribute="centerY" secondItem="iKO-nn-1wN" secondAttribute="centerY" id="b93-w6-W3e"/>
@@ -376,6 +405,16 @@
                                     <action selector="delete" destination="bri-8D-VCA" eventType="touchUpInside" id="M0A-xU-AXJ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DEATHNOTE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NAl-S2-82C">
+                                <rect key="frame" x="369" y="546" width="159" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="UU7-8K-9OM"/>
+                                    <constraint firstAttribute="width" constant="159" id="lSQ-zL-kQM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="onryou" family="onryou" pointSize="33"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -383,6 +422,7 @@
                             <constraint firstItem="pof-Oe-l6j" firstAttribute="trailing" secondItem="Ehf-iH-tiP" secondAttribute="trailing" id="9PP-X0-0op"/>
                             <constraint firstItem="pof-Oe-l6j" firstAttribute="leading" secondItem="Fei-yY-rc6" secondAttribute="leading" id="9eW-Wn-y79"/>
                             <constraint firstItem="1wI-aA-jfl" firstAttribute="centerX" secondItem="xfM-WC-spp" secondAttribute="centerX" id="9yq-wv-5W9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NAl-S2-82C" secondAttribute="trailing" constant="52" id="HUC-UO-wcy"/>
                             <constraint firstItem="pof-Oe-l6j" firstAttribute="centerX" secondItem="xfM-WC-spp" secondAttribute="centerX" id="HZe-ax-ish"/>
                             <constraint firstItem="1wI-aA-jfl" firstAttribute="top" secondItem="5uV-3W-NUY" secondAttribute="bottom" constant="36" id="ITE-cz-nLt"/>
                             <constraint firstItem="pof-Oe-l6j" firstAttribute="top" secondItem="srr-AF-fcB" secondAttribute="bottom" constant="142" id="KZQ-2V-jCg"/>
@@ -390,6 +430,7 @@
                             <constraint firstItem="pof-Oe-l6j" firstAttribute="top" secondItem="Fei-yY-rc6" secondAttribute="bottom" constant="225" id="LhN-hX-fgT"/>
                             <constraint firstItem="T3I-Rl-IEI" firstAttribute="centerY" secondItem="HY9-Xs-6ww" secondAttribute="centerY" id="Nbz-Z1-dL6"/>
                             <constraint firstItem="J7J-ht-qAS" firstAttribute="top" secondItem="pof-Oe-l6j" secondAttribute="bottom" constant="166" id="OKu-3Z-Z3R"/>
+                            <constraint firstItem="J7J-ht-qAS" firstAttribute="top" secondItem="NAl-S2-82C" secondAttribute="bottom" constant="20" id="QBf-FH-eU0"/>
                             <constraint firstItem="pof-Oe-l6j" firstAttribute="leading" secondItem="srr-AF-fcB" secondAttribute="leading" id="RA7-bX-d9v"/>
                             <constraint firstItem="5uV-3W-NUY" firstAttribute="leading" secondItem="HaF-Ap-Jws" secondAttribute="leading" id="U5f-jx-XVd"/>
                             <constraint firstItem="pof-Oe-l6j" firstAttribute="top" secondItem="1wI-aA-jfl" secondAttribute="bottom" constant="36" id="UYu-Hu-Qni"/>
